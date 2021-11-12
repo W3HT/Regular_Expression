@@ -1,6 +1,6 @@
 # REG_EX Tutorial
 
-This is tutorial will demonstrate the use of Regular Expressions used to Validate emails by Node or Mongo. Here is the specific expression: 
+This tutorial will demonstrate the use of Regular Expressions used to Validate emails by Node or Mongo. Here is the specific expression: 
 
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
@@ -18,7 +18,7 @@ Let's take a look at the expression above and decifer it's meaning
 - [Common Symbols](#common-symbols)
 - [ANCHORS](#anchors)
 - [Quantifiers](#quantifiers)
-- [Capture Groups](#capture-group)
+- [Capture Group](#capture-group)
 - [Bracket Expressions](#bracket-expressions)
 
 ---
