@@ -52,7 +52,7 @@ This caaptures the text matched by the regular expression. In our expressionm, t
 
 Here we learn about "greedy" and "lazy" quantifiers. Greedy  will match as much as it can and lazy quantifiers will try for the minimal match. In this expression we see the `+` operator. It connets the username to the the `@` symbol then to domain service. 
 
-### Bracket Expression
+### Bracket Expressions
 
 A bracket expression is a list of characters enclosed by `[` and `]`. It mataches any single character in that list. if the first character is `^`, then it it matches characters NOT in the list. 
 
