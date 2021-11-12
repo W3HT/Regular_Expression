@@ -2,7 +2,7 @@
 
 This is tutorial will demonstrate the use of Regular Expressions used to Validate emails by Node or Mongo. Here is the specific expression: 
 
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ---
 
@@ -27,17 +27,17 @@ Let's take a look at the expression above and decifer it's meaning
 
 First off, we need to understand what each character means. List here are the most common ones:
 
--    .    - Matches any character, except for line breaks if dotall is false.
--    *    - Matches 0 or more of the preceding character.
--    +    - Matches 1 or more of the preceding character.
--    ?    - Preceding character is optional. Matches 0 or 1 occurrence.
--    \    - Matches any single digit
--    \    - Matches any word character (alphanumeric & underscore).
--  [XYZ]  - Matches any single character from the character class.
--  [XYZ]+ - Matches one or more of any of the characters in the set.
--    $    - Matches the end of the string.
--    ^    - Matches the beginning of a string.
--  [^a-z] - When inside of a character class, the ^ means NOT; in this case, match anything that is NOT a lowercase letter.
+-   `.`      Matches any character, except for line breaks if dotall is false.
+-   `*`      Matches 0 or more of the preceding character.
+-   `+`      Matches 1 or more of the preceding character.
+-   `?`      Preceding character is optional. Matches 0 or 1 occurrence.
+-   `\`      Matches any single digit
+-   `\`      Matches any word character (alphanumeric & underscore).
+- `[XYZ]`    Matches any single character from the character class.
+- `[XYZ]+`   Matches one or more of any of the characters in the set.
+-   `$`      Matches the end of the string.
+-   `^`      Matches the beginning of a string.
+- `[^a-z]`   When inside of a character class, the ^ means NOT; in this case, match anything that is NOT a lowercase letter.
 
 
 ### Anchors
