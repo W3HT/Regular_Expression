@@ -19,7 +19,6 @@ Let's take a look at the expression above and decifer it's meaning
 - [ANCHORS](#anchors)
 - [Quantifiers](#quantifiers)
 - [Capture Groups](#capture-group)
-
 - [Bracket Expressions](#bracket-expressions)
 
 ---
